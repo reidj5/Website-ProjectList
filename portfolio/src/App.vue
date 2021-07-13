@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <Nav/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Projects/>
   </div>
 </template>
 
 <script>
 import Nav from './components/Nav.vue'
+import Projects from './components/Projects.vue'
 
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav,
+    Projects
   }
 }
 </script>

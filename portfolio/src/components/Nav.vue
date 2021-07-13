@@ -1,19 +1,13 @@
 <template>
-  <div class="navbar">
-<ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-</ul>
+  <div class="navbar navbar-dark bg-dark">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/projects">Project List</a>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -23,4 +17,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.nav-link {
+  color:#FFF;
+}
+</style>

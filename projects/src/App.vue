@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <Nav />
+    <Card />
   </div>
 </template>
 <script>
 import Vue from 'vue';
 import Nav from './components/Nav';
+import Card from './components/Card';
 import { BootstrapVue, IconsPlugin} from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -15,7 +17,8 @@ Vue.use(IconsPlugin)
 
 export default {
   components: {
-    Nav,
+    Nav, 
+    Card
   },
 }
 </script>

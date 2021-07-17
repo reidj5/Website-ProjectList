@@ -1,24 +1,15 @@
 <template>
   <div id="app">
     <Nav />
-    <Card />
+    <h1>This is App</h1>
   </div>
 </template>
 <script>
-import Vue from 'vue';
 import Nav from './components/Nav';
-import Card from './components/Card';
-import { BootstrapVue, IconsPlugin} from 'bootstrap-vue';
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-
-Vue.use(BootstrapVue)
-Vue.use(IconsPlugin)
 
 export default {
   components: {
-    Nav, 
-    Card
+    Nav
   },
 }
 </script>
